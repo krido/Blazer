@@ -222,22 +222,21 @@ public class WarsContent
                 bgObjects.Add(new WarsObject(ref bigStar, pos, z));
             }
         }
-        /*
+
         screenPosX = random.Next(Constants.RESOLUTION_WIDTH);
         screenPosY = random.Next(Constants.RESOLUTION_HEIGHT);
         pos = new Vector2(screenPosX, screenPosY);
         planetObjects.Add(new WarsObject(ref earthMoonFull, pos, 50));
-        */
+
         screenPosX = random.Next(Constants.RESOLUTION_WIDTH);
         screenPosY = random.Next(Constants.RESOLUTION_HEIGHT);
         pos = new Vector2(screenPosX, screenPosY);
         planetObjects.Add(new WarsObject(ref planet2, pos, 10));
-        /*
+
         screenPosX = random.Next(Constants.RESOLUTION_WIDTH);
         screenPosY = random.Next(Constants.RESOLUTION_HEIGHT);
         pos = new Vector2(screenPosX, screenPosY);
         planetObjects.Add(new WarsObject(ref planet1, pos, 5));
-        */
     }
 
     public void LoadAudioContent(Wars wars)
