@@ -151,7 +151,7 @@ public class WarsContent
         newCat.RedShotSpacingCounter = newShip.RedShotSpacing;
         cats.Add(newCat);
 
-        
+/*
         newCat = new Cat(ref blueBallTexture, //greenShipTexture, // texture
                          200, // ship distance
                          MathHelper.ToRadians((float)random.Next(359)), // posRotAngle
@@ -181,7 +181,7 @@ public class WarsContent
         newCat.RedShotSpacing = Constants.REDSHOT_SPACING * 0.1f;
         newCat.RedShotSpacingCounter = newShip.RedShotSpacing;
         cats.Add(newCat);
-        
+*/
 
         Ship newShip2 = new Ship(ref wraithShipTexture, //greenShipTexture, // texture
                                  screenpos / 2, // position
