@@ -249,7 +249,7 @@ public class WarsContent
         engineSoundInstance.Pitch = 0.3f;
         engineSoundInstance.Pan = 0.0f;
         engineSoundInstance.Play(); // XNA3140: probably not necessary...
-        engineSoundInstance.Pause();
+        engineSoundInstance.Stop();
         enemyEngineSound = contentManager.Load<SoundEffect>(".\\sound\\Engine");
         enemyEngineSoundInstance = engineSound.CreateInstance();
         enemyEngineSoundInstance.IsLooped = true;
@@ -257,7 +257,7 @@ public class WarsContent
         enemyEngineSoundInstance.Pitch = 0.0f;
         enemyEngineSoundInstance.Pan = 0.0f;
         enemyEngineSoundInstance.Play(); // XNA3140: probably not necessary...
-        enemyEngineSoundInstance.Pause();
+        enemyEngineSoundInstance.Stop();
         redShotSound = contentManager.Load<SoundEffect>(".\\sound\\Laser1");
         blueShotSound = contentManager.Load<SoundEffect>(".\\sound\\Laser3");
         explosionSound = contentManager.Load<SoundEffect>(".\\sound\\ExplosionA");
@@ -294,11 +294,11 @@ public class WarsContent
     {
         if (playerIndex == 1)
         {
-            engineSoundInstance.Pause();
+            engineSoundInstance.Stop();
         }
         else
         {
-            enemyEngineSoundInstance.Pause();
+            enemyEngineSoundInstance.Stop();
         }
     }
 
