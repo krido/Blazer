@@ -16,7 +16,7 @@ public class Constants
     public static float ENEMY_REDSHOT_SPACING = 3f; // seconds
     public static float REDSHOT_SPEED = 20f; // 20f
 
-    public static int   EXPLOSION_DEBRIS_COUNT = 200;
+    public static int   EXPLOSION_DEBRIS_COUNT = 202;
     public static float EXPLOSION_DEBRIS_TTL = 1f;
     public static float EXPLOSION_DEBRIS_TTL_VARIANCE = 0.9f; // should be < EXPLOSION_DEBRIS_TTL
     public static float EXPLOSION_DEBRIS_SPEED = 7f;
