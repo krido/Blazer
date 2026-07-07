@@ -42,7 +42,7 @@ namespace WarsUtils
 //            DepthStencilBuffer old = myDevice.DepthStencilBuffer;          // Set our custom depth buffer          
 //            myDevice.DepthStencilBuffer = stencilBuffer;
             myDevice.Clear(Color.White);
-            myDevice.SetRenderTarget(null);          // Reset the depth buffer          
+            myDevice.SetRenderTarget(null);         // Reset the depth buffer          
 //            myDevice.DepthStencilBuffer = old;
 // END XNA3140: What to do about the DepthStencilBuffer? Just ignore?
             pixel = LevelRenderTarget;
